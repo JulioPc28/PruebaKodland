@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    font-family: Arialblack, sans-serif;
+}
+header .block {
+    background-color: #FFBF69;
+    color: black;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    top: 0;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+header {
+    background-color: #FFBF69;
+    background-size: cover;
+    color: white;
+    text-align: left;
+    padding: 40px;   
+    flex-direction: column;
+}
+
+header .small-image{
+   width: 500px;
+   float: right;
+   overflow: hidden;
+   max-width: 100%;
+   margin-right: 50px;
+   
+}
+
+header h1 {
+    font-size: 7em;
+    margin-bottom: 5px;
+}
+
+header h4 {
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+
+header button {
+    background-color: #CBF3F0;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;   
+}
+
+section {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 30px;
+}
+.mi-bloqueuno{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.mi-bloqueuno h3{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+       
+}
+
+.mi-bloqueuno h4{
+    font-size: 1em;
+    text-align: center;  
+    padding: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+       
+}
+
+
+.block {
+    background-color: #CBF3F0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.block img {
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
+
+.block div {
+    flex: 0 0 30%;
+    margin: 10px 0;
+    margin-top: 30px;
+    padding: 20px;
+}
+.block div h3 {
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.block h3 {
+    font-size: 1.5em;
+    text-align: center;
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;    
+    
+}
+
+.block div h4,
+.block div button {
+    margin-top: 10px;
+}
+
+.block div button {
+    background-color: #FFBF69;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer; 
+}
+
+
+.mi-bloquedos{
+    background-image:url(Imagenes/bg-grid.png);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+.mi-bloquedos div {
+   flex: 0 0 25%;
+   text-align: left;
+   margin-top: 25px;
+   margin-left: 10px;
+   padding: 10px;
+}
+.mi-bloquedos h3 {
+    font-size: 1.5em;
+    text-align: left;
+
+}
+.mi-bloquedos h4 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.mi-bloquedos img{
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    flex: 0 0 40%;
+    margin-top: 10px;
+    float: right;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
